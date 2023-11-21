@@ -197,15 +197,15 @@ body {
 }
 
 .footer {
+    
     padding: 20px;
     background-color: black;
     color: white;
-
 }
 
 .footer__one {
     display: flex;
-    gap: 10px;
+    gap: 5px;
 }
 
 .footer__one p {
