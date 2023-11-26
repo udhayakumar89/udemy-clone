@@ -32,7 +32,7 @@ body {
 
 .Navbar__s2 {
     width: 60%;
-
+    align-items: center;  
     border: 1px solid;
     border-radius: 30px;
     padding: 10px;
@@ -90,7 +90,6 @@ body {
     border-radius: 20px;
     color: white;
     transition: 1s;
-
 }
 
 .categories p:hover {
@@ -98,7 +97,6 @@ body {
     color: black;
     border: solid black 1px;
     cursor: pointer;
-
 }
 
 .recommended {
@@ -118,12 +116,10 @@ body {
 
 .sale-image {
     position: relative;
-    display: flex;
-    
+    display: flex;    
 }
 
-.sale-image_offer {
-    
+.sale-image_offer {    
     position: absolute;
     border: solid 2px;
     top: 8%;
@@ -133,8 +129,7 @@ body {
     animation-name: zoom;
     animation-duration: 3s;
     opacity: 0;
-    animation-fill-mode: forwards;
-          
+    animation-fill-mode: forwards;        
 }
 
 @keyframes zoom {
@@ -150,7 +145,6 @@ body {
 }
 
 .course__card {
-
     flex-grow: 1;
     flex-basis: 20%;
     margin: 5px;
@@ -165,9 +159,7 @@ body {
 
 .topics {
     padding: 20px;
-
 }
-
 
 .topics__container {
     display: flex;
